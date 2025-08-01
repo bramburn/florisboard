@@ -142,6 +142,7 @@ private fun SmartbarMainRow(modifier: Modifier = Modifier) {
     val prefs by FlorisPreferenceStore
     val context = LocalContext.current
     val keyboardManager by context.keyboardManager()
+    val activeEvaluator by keyboardManager.activeEvaluator.collectAsState()
     val nlpManager by context.nlpManager()
     val scope = rememberCoroutineScope()
 

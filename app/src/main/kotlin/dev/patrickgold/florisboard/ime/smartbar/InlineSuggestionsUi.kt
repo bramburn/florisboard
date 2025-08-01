@@ -16,8 +16,11 @@
 
 package dev.patrickgold.florisboard.ime.smartbar
 
+import android.graphics.PixelFormat
 import android.os.Build
+import android.view.SurfaceView
 import androidx.annotation.RequiresApi
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.rememberScrollState
@@ -32,15 +35,17 @@ import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInParent
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.view.forEach
 import dev.patrickgold.florisboard.ime.nlp.NlpInlineAutofillSuggestion
 import dev.patrickgold.florisboard.ime.theme.FlorisImeUi
 import dev.patrickgold.florisboard.lib.compose.florisHorizontalScroll
 import dev.patrickgold.florisboard.lib.toIntOffset
-import org.florisboard.lib.snygg.SnyggPropertySet
 import org.florisboard.lib.snygg.SnyggSinglePropertySet
 import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 var CachedInlineSuggestionsChipStyleSet: SnyggSinglePropertySet? = null
+
+var Temp: Boolean = false
 
 @Composable
 fun InlineSuggestionsStyleCache() {
@@ -59,19 +64,32 @@ fun InlineSuggestionsUi(
     val scrollState = rememberScrollState()
     val almostEmptyRect = remember { android.graphics.Rect(0, 0, 1, 1) }
 
+    val backgroundColor = rememberSnyggThemeQuery(FlorisImeUi.SmartbarCandidatesRow.elementName).background()
+
     Row(
         modifier
             .fillMaxSize()
             .florisHorizontalScroll(
                 state = scrollState,
                 scrollbarHeight = CandidatesRowScrollbarHeight,
-            ),
+            )
+            .background(backgroundColor),
     ) {
         val xMin = scrollState.value
         val xMax = scrollState.value + scrollState.viewportSize
         for (inlineSuggestion in inlineSuggestions) {
             if (inlineSuggestion.view == null) {
                 continue
+            }
+            //inlineSuggestion.view.background = ColorDrawable(backgroundColor.toArgb())
+            inlineSuggestion.view.forEach {
+                with (it as SurfaceView) {
+                    //this.setBackgroundColor(backgroundColor.toArgb())
+                    setZOrderOnTop(false)
+                    holder.setFormat(PixelFormat.OPAQUE)
+
+                }
+
             }
             var chipPos by remember { mutableStateOf(IntOffset.Zero) }
             AndroidView(
