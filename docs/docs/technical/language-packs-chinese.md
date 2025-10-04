@@ -18,7 +18,7 @@ This pack is released under the same license as Florisboard.
 
 Chinese shape-based language pack based on fcitx5-table-extra.
 
-This pack is released under a separate license. Please visit to download: [TODO: add link to release page](https://)
+This pack is released under a separate license. 
 
 :no_entry: :no_entry: **WARNING** :no_entry: :no_entry:
 
@@ -39,7 +39,7 @@ The following input methods are included in this language pack:
 - 中文 (香港) [輕鬆-大字庫] / Chinese (Hong Kong) [EASYLARGE]
 - ~中文 (香港) [粤語拼音-表格] / Chinese (Hong Kong) [JYUTPINGTABLE]~
 - 中文 (香港) [速成三代] / Chinese (Hong Kong) [QUICK3]
-- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]
+- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]~
 - 中文 (香港) [筆順五碼] / Chinese (Hong Kong) [STROKE5]
 - 中文 (台灣) [行列] / Chinese (Taiwan) [ARRAY30]
 - 中文 (台灣) [行列-大字库] / Chinese (Taiwan) [ARRAY30LARGE]
@@ -53,7 +53,7 @@ The following input methods are included in this language pack:
 
 Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LICENSES/GPL-3.0-or-later.txt]
 
-# 简体中文翻译
+# 简体中文翻译 {#simplified-chinese-translation}
 ## 默认中文形码语言包
 
 请下载[完整中文语言包](#fcitx5-中文形码语言包)来获得五笔、快速仓颉等输入法，及这些输入法的其他版本。
@@ -62,7 +62,6 @@ Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LI
 
 ## Fcitx5 中文形码语言包
 
-这一语言包由另一使用许可提供。下载请访问：[TODO: add link to release page](https://)
 
 :no_entry: :no_entry: **注意** :no_entry: :no_entry:
 
@@ -76,14 +75,14 @@ Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LI
 - 中文 (中国) [五笔98-单字] / Chinese (China) [WUBI98SINGLE]
 - 中文 (中国) [五笔-大字库] / Chinese (China) [WUBILARGE]
 - 中文 (中国) [郑码] / Chinese (China) [ZHENGMA]
-- 中文 (中国) [郑码-大字库] / Chinese (China) [ZHENGMALARGE]
+- 中文 (中国) [郑码-大字库] / Chinese (China) [ZHENGMALARGE]~
 - ~中文 (中国) [郑码-拼音混打] / Chinese (China) [ZHENGMAPINYIN]~
 - ~中文 (香港) [廣東拼音] / Chinese (Hong Kong) [CANTONESE]~
 - ~中文 (香港) [港式廣東話] / Chinese (Hong Kong) [CANTONHK]~
 - 中文 (香港) [輕鬆-大字庫] / Chinese (Hong Kong) [EASYLARGE]
 - ~中文 (香港) [粤語拼音-表格] / Chinese (Hong Kong) [JYUTPINGTABLE]~
 - 中文 (香港) [速成三代] / Chinese (Hong Kong) [QUICK3]
-- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]
+- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]~
 - 中文 (香港) [筆順五碼] / Chinese (Hong Kong) [STROKE5]
 - 中文 (台灣) [行列] / Chinese (Taiwan) [ARRAY30]
 - 中文 (台灣) [行列-大字库] / Chinese (Taiwan) [ARRAY30LARGE]
@@ -98,7 +97,7 @@ Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LI
 第三方许可证: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LICENSES/GPL-3.0-or-later.txt]
 
 
-# 繁体中文翻譯
+# 繁体中文翻譯 {#traditional-chinese-translation}
 ## 預設中文形碼語言包
 
 請下載[完整中文語言包](#fcitx5-中文形碼語言包)來獲得五筆、快速倉頡等輸入法，及這些輸入法的其他版本。
@@ -107,7 +106,7 @@ Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LI
 
 ## Fcitx5 中文形碼語言包
 
-這一語言包由另一使用許可提供。下載請訪問：[TODO: add link to release page](https://)
+這一語言包由另一使用許可提供。
 
 :no_entry: :no_entry: **注意** :no_entry: :no_entry:
 
@@ -121,14 +120,14 @@ Third-party license: [https://github.com/fcitx/fcitx5-table-extra/blob/master/LI
 - 中文 (中国) [五笔98-单字] / Chinese (China) [WUBI98SINGLE]
 - 中文 (中国) [五笔-大字库] / Chinese (China) [WUBILARGE]
 - 中文 (中国) [郑码] / Chinese (China) [ZHENGMA]
-- 中文 (中国) [郑码-大字库] / Chinese (China) [ZHENGMALARGE]
+- 中文 (中国) [郑码-大字库] / Chinese (China) [ZHENGMALARGE]~
 - ~中文 (中国) [郑码-拼音混打] / Chinese (China) [ZHENGMAPINYIN]~
 - ~中文 (香港) [廣東拼音] / Chinese (Hong Kong) [CANTONESE]~
 - ~中文 (香港) [港式廣東話] / Chinese (Hong Kong) [CANTONHK]~
 - 中文 (香港) [輕鬆-大字庫] / Chinese (Hong Kong) [EASYLARGE]
 - ~中文 (香港) [粤語拼音-表格] / Chinese (Hong Kong) [JYUTPINGTABLE]~
 - 中文 (香港) [速成三代] / Chinese (Hong Kong) [QUICK3]
-- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]
+- 中文 (香港) [經典速成] / Chinese (Hong Kong) [QUICKCLASSIC]~
 - 中文 (香港) [筆順五碼] / Chinese (Hong Kong) [STROKE5]
 - 中文 (台灣) [行列] / Chinese (Taiwan) [ARRAY30]
 - 中文 (台灣) [行列-大字库] / Chinese (Taiwan) [ARRAY30LARGE]

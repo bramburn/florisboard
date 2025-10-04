@@ -42,6 +42,7 @@ const sidebars = {
         'architecture/state-management',
         'architecture/performance',
         'architecture/extensions',
+        'architecture/api-reference/index',
       ],
     },
     {
@@ -56,6 +57,8 @@ const sidebars = {
         'technical/prediction-engine',
         'technical/i18n',
         'technical/accessibility',
+        'technical/language-packs',
+        'technical/language-packs-chinese',
       ],
     },
     {
@@ -104,6 +107,16 @@ const sidebars = {
       items: [
         'faq/common-pitfalls',
         'faq/security-privacy',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contribution Guidelines',
+      collapsed: true,
+      items: [
+        'contribution-guidelines/contributing',
+        'contribution-guidelines/code-of-conduct',
+        'contribution-guidelines/deployment-guide',
       ],
     },
   ],
