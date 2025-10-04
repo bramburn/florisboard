@@ -529,5 +529,5 @@ In this tutorial, you learned:
 - ✅ How to implement word deletion
 - ✅ How to handle IME actions
 
-**Next**: [Tutorial 5: Layout System](./tutorial-05-layout-system.md)
+**Next**: This tutorial is part of a series. Continue with [Building an Android Keyboard From Scratch](./build-from-scratch.md#part-7-layout-system) for the next section.
 

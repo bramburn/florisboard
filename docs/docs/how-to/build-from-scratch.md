@@ -30,19 +30,19 @@ This tutorial is divided into multiple chapters, each building on the previous:
 3. [Android Manifest Configuration](#part-3-manifest-configuration)
 
 ### Part 2: Core Functionality
-4. [Building the Keyboard UI](./tutorial-02-keyboard-ui.md)
-5. [Handling Touch Input](./tutorial-03-touch-input.md)
-6. [Text Input and InputConnection](./tutorial-04-text-input.md)
+4. [Building the Keyboard UI](#part-4-building-the-keyboard-ui)
+5. [Handling Touch Input](#part-5-handling-touch-input)
+6. [Text Input and InputConnection](#part-6-text-input-and-inputconnection)
 
 ### Part 3: Advanced Features
-7. [Layout System](./tutorial-05-layout-system.md)
-8. [Gesture Support](./tutorial-06-gestures.md)
-9. [Theme System](./tutorial-07-themes.md)
+7. [Layout System](#part-7-layout-system)
+8. [Gesture Support](#part-8-gesture-support)
+9. [Theme System](#part-9-theme-system)
 
 ### Part 4: Polish and Distribution
-10. [Testing and Debugging](./tutorial-08-testing.md)
-11. [Performance Optimization](./tutorial-09-performance.md)
-12. [Publishing](./tutorial-10-publishing.md)
+10. [Testing and Debugging](#part-10-testing-and-debugging)
+11. [Performance Optimization](#part-11-performance-optimization)
+12. [Publishing](#part-12-publishing)
 
 ---
 
