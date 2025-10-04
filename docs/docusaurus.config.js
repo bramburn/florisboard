@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'FlorisBoard Docs',
   tagline: 'Documentation for FlorisBoard',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -39,6 +39,21 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          // Example: /docs/old-doc-id -> /docs/new-doc-id
+          // { 
+          //   to: '/docs/getting-started/introduction',
+          //   from: '/docs/intro',
+          // },
+        ],
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -83,7 +98,7 @@ const config = {
         title: 'FlorisBoard',
         logo: {
           alt: 'FlorisBoard Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [],
       },
