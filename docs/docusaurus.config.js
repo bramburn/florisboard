@@ -46,10 +46,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: './docs',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: undefined,
+          exclude: ['**/node_modules/**'],
         },
         blog: {
           showReadingTime: true,
@@ -66,7 +66,6 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
         },
       }),
     ],
