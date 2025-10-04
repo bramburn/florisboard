@@ -134,7 +134,7 @@ Found an error or want to improve the documentation? Contributions are welcome! 
 
 FlorisBoard is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/florisboard/florisboard/blob/main/LICENSE) file for details.
 
-<!-- Build trigger: 2025-10-04 -->
+<!-- Build trigger: 2025-10-04-v2 -->
 
 ---
 
