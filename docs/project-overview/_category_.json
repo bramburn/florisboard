@@ -1,0 +1,8 @@
+{
+  "label": "Project Overview",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Understand the FlorisBoard project structure and build system."
+  }
+}

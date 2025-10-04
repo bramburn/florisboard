@@ -1,0 +1,8 @@
+{
+  "label": "Android Integration & Extension",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Guides for integrating and extending FlorisBoard in Android projects."
+  }
+}
