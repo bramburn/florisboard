@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'FlorisBoard Docs',
   tagline: 'Documentation for FlorisBoard',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,15 +20,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://bramburn.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/florisboard/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'florisboard', // Usually your GitHub org/user name.
+  organizationName: 'bramburn', // Usually your GitHub org/user name.
   projectName: 'florisboard', // Usually your repo name.
+
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -40,20 +42,7 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          // Example: /docs/old-doc-id -> /docs/new-doc-id
-          // { 
-          //   to: '/docs/getting-started/introduction',
-          //   from: '/docs/intro',
-          // },
-        ],
-      },
-    ],
-  ],
+  plugins: [],
 
   presets: [
     [
@@ -100,7 +89,19 @@ const config = {
           alt: 'FlorisBoard Logo',
           src: 'img/logo.png',
         },
-        items: [],
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Documentation',
+          },
+          {
+            href: 'https://github.com/florisboard/florisboard',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
       footer: {
         style: 'dark',

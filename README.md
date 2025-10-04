@@ -81,6 +81,10 @@ Beginning with v0.7 FlorisBoard will enter the public beta on Google Play.
 
 Feature roadmap: See [ROADMAP.md](ROADMAP.md)
 
+## Documentation
+
+📖 **[Complete Documentation](https://bramburn.github.io/florisboard/)** - Comprehensive guide for developers, users, and contributors covering architecture, setup, customization, and more.
+
 ## Contributing
 Want to contribute to FlorisBoard? That's great to hear! There are lots of
 different ways to help out, please see the [contribution guidelines](CONTRIBUTING.md) for more info.
