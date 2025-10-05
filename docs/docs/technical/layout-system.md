@@ -479,10 +479,9 @@ keyboardManager.activeState.keyboardMode = when (editorInfo.inputType) {
 
 ## Next Steps
 
-- Create your own [custom keyboard layout](../how-to/create-layout.md)
-- Learn about [popup mappings](../how-to/configure-popups.md)
 - Explore [existing layouts](https://github.com/florisboard/florisboard/tree/main/app/src/main/assets/ime/keyboard/org.florisboard.layouts/layouts)
 - Contribute layouts to the [FlorisBoard repository](https://github.com/florisboard/florisboard)
+- Check the FlorisBoard documentation for upcoming guides on custom layouts and popup mappings
 
 ---
 

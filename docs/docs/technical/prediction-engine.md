@@ -624,10 +624,9 @@ private fun getContextualSuggestions(
 
 ## Next Steps
 
-- Implement a [custom NLP provider](../how-to/create-nlp-provider.md)
-- Learn about [dictionary formats](../how-to/dictionary-formats.md)
 - Explore [existing providers](https://github.com/florisboard/florisboard/tree/main/app/src/main/kotlin/dev/patrickgold/florisboard/ime/nlp)
 - Contribute to [language support](https://github.com/florisboard/florisboard/issues?q=is%3Aissue+is%3Aopen+label%3Anlp)
+- Check the FlorisBoard documentation for upcoming guides on NLP providers and dictionary formats
 
 ---
 

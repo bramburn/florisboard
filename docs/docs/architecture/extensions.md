@@ -490,10 +490,8 @@ File name: org.example.extensionname.flex
 
 ## Next Steps
 
-- Create your first [custom theme](../how-to/create-theme.md)
-- Build a [custom keyboard layout](../how-to/create-layout.md)
-- Package and [distribute extensions](../how-to/distribute-extensions.md)
 - Explore [existing extensions](https://github.com/florisboard/florisboard/tree/main/app/src/main/assets/ime)
+- Check the FlorisBoard documentation for upcoming guides on themes, layouts, and distribution
 
 ---
 
